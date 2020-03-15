@@ -1,0 +1,39 @@
+.CodeForcesWidgets {
+    display: inline-block;
+    border-radius: 16px;
+    border: 1px solid #ccc!important;
+    padding: 16px 16px 16px 16px;
+    box-sizing: border-box;
+}
+.cfw > .handle > a {
+    text-decoration-skip-ink: none;
+}
+.cfw > .handle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.cfw > .handle > a:link {
+    text-decoration: none;
+}
+.cfw > .handle > a:hover {
+    text-decoration: underline;
+}
+.cfw > .handle > a.god:link {
+    text-decoration: underline solid;
+    /*text-decoration: underline;
+    text-decoration-style: solid;*/
+}
+.cfw > .handle > a.god:hover {
+    background: pink;
+    /*text-decoration: underline double;*/
+    /*text-decoration: underline;
+    text-decoration-style: wavy;*/
+}
+.cfw > table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.cfw > table > tbody > tr > td, .cfw > table > tbody > tr > th {
+    border: 1px solid black;
+    padding: 3px 3px;
+}
